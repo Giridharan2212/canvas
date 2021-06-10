@@ -1,0 +1,43 @@
+.heading {
+    color: rgb(7, 7, 7);
+	text-shadow: 2px 2px 4px rgb(98, 94, 91);
+	font-size:300%;
+	font-family: Comic Sans MS;
+	position: relative;
+    text-align: center;
+}
+
+button {
+    user-select: none;
+    background-color: rgb(231, 231, 231);
+    color: black;
+    size: 70px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: black;
+    outline: none;
+}
+
+button:hover {
+    background-color: #303130
+}
+
+button:active {
+    background-color: #727278;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+}
+
+canvas {
+    background-color: rgb(255, 255, 255);
+    border-width:5px;  
+    border-style:outset;
+}
+
+canvas:hover {
+    background-color: #ffffff
+}
+
+body{
+    background-color: rgb(200, 199, 199);
+}
